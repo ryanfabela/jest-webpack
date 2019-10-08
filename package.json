@@ -1,5 +1,5 @@
 {
-  "name": "jest-webpack",
+  "name": "@mtgroup/jest-webpack",
   "version": "0.5.1",
   "description": "Use webpack loader and plugins you want to build modules into individual files and test them with jest.",
   "repository": {
@@ -55,6 +55,7 @@
     "webpack-cli": ">=3.0.0"
   },
   "dependencies": {
+    "@jest/core": "^24.9.0",
     "find-up": "^2.1.0",
     "mkdirp": "^0.5.1",
     "node-object-hash": "^1.2.0",
